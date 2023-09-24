@@ -9,7 +9,7 @@ trigger:
 pool: 
  name: Linux-Pool
  demands:
-  - agent.name -equals agent1a
+  - agent.name -equals agent2a
   #vmImage: agent1a
 
 steps:
