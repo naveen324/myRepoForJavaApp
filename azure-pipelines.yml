@@ -6,10 +6,10 @@
 trigger:
 - master
 
-pool: 
- name: Linux-Pool
- demands:
-  - agent.name -equals agent2a
+pool: Linux-Pool
+ #name: Linux-Pool
+ #demands:
+  #- agent.name -equals agent2a
   #vmImage: agent1a
 
 steps:
