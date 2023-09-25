@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: Linux-Pool
+pool: Linux2-Pool
  #name: Linux-Pool
  #demands:
   #- agent.name -equals agent2a
